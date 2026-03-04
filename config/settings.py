@@ -14,12 +14,15 @@ DEBUG = True
 ALLOWED_HOSTS = ['127.0.0.1']
 
 INSTALLED_APPS = [
+    'appointments.apps.AppointmentsConfig',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'services.apps.ServicesConfig',
+    'users.apps.UsersConfig'
 ]
 
 MIDDLEWARE = [
